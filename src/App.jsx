@@ -23,7 +23,7 @@ const App = () => {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch("https://api.github.com/users/hamzamaach")
+    fetch("https://api.github.com/users/hmaach")
       .then(res => res.json())
       .then(data => {
         setData(data);
